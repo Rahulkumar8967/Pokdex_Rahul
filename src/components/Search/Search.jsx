@@ -9,7 +9,7 @@ function Search({ updateSearchTerm }) {
         className='text-4xl'
             id='search-pokemon'
             type="text" 
-            placeholder=" Search Pokeomn ... " 
+            placeholder=" Search Pokemon ... " 
             onChange={debounceUpdateSearch}
         />
     )
